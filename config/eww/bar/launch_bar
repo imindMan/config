@@ -1,3 +1,0 @@
-#!/bin/bash
-
-eww -c ~/.config/eww/bar open-many --toggle left right center 
