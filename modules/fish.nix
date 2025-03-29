@@ -9,6 +9,7 @@
         alias ll='eza -la'
         alias cat='bat'
         alias vim='nvim'
+        set -g EDITOR nvim
         pay-respects fish --alias | source
         starship init fish | source
         any-nix-shell fish --info-right | source

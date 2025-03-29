@@ -1,7 +1,9 @@
 {
   imports = [
     ./fish.nix
+    ./btop.nix
     ./git.nix
+    ./gh.nix
     ./fzf.nix
     ./starship.nix
     ./ripgrep.nix
@@ -11,6 +13,9 @@
     ./helix.nix
     ./kitty.nix
     ./zathura.nix
-    ./nixvim.nix
+    ./neovim
+    ./tmux.nix 
+    ./fastfetch.nix
+    ./yazi.nix
   ];
 }

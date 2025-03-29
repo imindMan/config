@@ -1,6 +1,6 @@
 { inputs, lib, config, pkgs, ... }: {
   home.packages = with pkgs; [
-     fira-code-nerdfont
+     nerd-fonts.fira-code
      hello 
      pay-respects
      xclip
@@ -9,6 +9,15 @@
      python314
      lua51Packages.lua 
      lua51Packages.luarocks-nix
+     tree
+     rustup
+     gcc
+     tealdeer
+     tree-sitter
+     nodejs_23
+     librsvg
   ];
+  programs.fd.enable = true;
+  programs.lazygit.enable = true;
   fonts.fontconfig.enable = true;
 }

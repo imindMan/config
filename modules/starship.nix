@@ -36,7 +36,7 @@
 
       git_metrics = {
         disabled = false;
-        format = "[+$added](fg:#73daca)[ ]()[-$deleted](fg:#f7768e)";
+        format = "[+$added](fg:#73daca)[ ]()[-$deleted](fg:#f7768e)[ ]()";
       };
       nix_shell = {
         disabled = false;
