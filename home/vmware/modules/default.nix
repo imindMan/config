@@ -1,0 +1,29 @@
+{
+  imports = [
+    ./fish.nix
+    ./btop.nix
+    ./git.nix
+    ./gh.nix
+    ./fzf.nix
+    ./starship.nix
+    ./ripgrep.nix
+    ./gh.nix
+    ./eza.nix
+    ./bat.nix
+    ./helix.nix
+    ./kitty.nix
+    ./zathura.nix
+    ./neovim
+    ./tmux.nix 
+    ./fastfetch.nix
+    ./yazi.nix
+    ./gtk.nix
+    ./i3.nix
+    ./rofi
+    ./polybar
+    ./obs.nix
+    ./go.nix
+    ./input.nix
+    ./dunst
+  ];
+}
